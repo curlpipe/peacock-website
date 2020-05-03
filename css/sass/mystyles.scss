@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Rubik:wght@300');
+
+// Set your brand colors
+$dark1: #2E3440;
+$dark2: #3B4252;
+$dark3: #434C5E;
+$dark4: #4C566A;
+
+$light1: #D8DEE9;
+$light2: #E5E9F0;
+$light3: #ECEFF4;
+
+$highlight: #5E81AC;
+$highlight2: #8FBCBB;
+
+// Fonts
+$family-sans-serif: "Rubik", sans-serif;
+
+// Colors
+$primary: $highlight;
+$dark: $dark1;
+$link: $highlight2;
+
+// Cards
+$card-background-color: $dark3;
+
+// Size
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+
+// Body
+$body-background-color: $dark1;
+
+// Text
+$title-size: 60px;
+$subtitle-size: 30px;
+
+// Navbar
+$navbar-height: 4.5rem;
+$navbar-item-hover-color: $highlight;
+$navbar-item-hover-background-color: none;
+$navbar-item-color: $light1;
+
+// Buttons
+
+// Import only what you need from Bulma
+@import "../bulma/bulma.sass";

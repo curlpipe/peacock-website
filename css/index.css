@@ -1,0 +1,44 @@
+.shift-right {
+  margin-left: 10px;
+}
+
+.shift-left {
+  margin-right: 10px;
+}
+
+.has-bg-img {
+    background: url('../assets/peacock.jpg') center center; 
+    background-size: cover; 
+    background-repeat: none;
+}
+
+.is-transparent {
+    background-image: none;
+    background-color: transparent;
+}
+
+.no-shadow {
+  box-shadow: none;
+}
+
+.drop {
+  margin-left: 5px;
+}
+
+.hero-body {
+  margin-left: 10%;
+}
+
+.card-content {
+  color: white;
+}
+
+.card-header-title {
+  color: white;
+  font-size: 35px;
+}
+
+.text {
+  font-size: 20px;
+}
+
