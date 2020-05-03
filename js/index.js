@@ -1,3 +1,4 @@
+// Navbar code
 document.addEventListener('DOMContentLoaded', () => {
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
   if ($navbarBurgers.length > 0) {
@@ -11,3 +12,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 });
+
+// Laxxx init
+window.onload = function() {
+  lax.setup();
+  const updateLax = () => {
+    lax.update(window.scrollY);
+    window.requestAnimationFrame(updateLax);
+  }
+  window.requestAnimationFrame(updateLax);
+}

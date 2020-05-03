@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .shift-right {
   margin-left: 10px;
 }
@@ -31,6 +35,7 @@
 
 .card-content {
   color: white;
+  font-size: 20px;
 }
 
 .card-header-title {
@@ -42,3 +47,6 @@
   font-size: 20px;
 }
 
+.tabs {
+  font-size: 20px;
+}

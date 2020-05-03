@@ -2,13 +2,17 @@
 <html>
   <head>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lax.js"></script>
     <link rel="stylesheet" type="text/css" href="css/mybulma.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script type="text/javascript" src="js/index.js"></script>
-    <title>Peacock browser</title>
+    <script defer src="js/tabs.js"></script>
+    <meta name="twitter:title" content="Peacock | Privacy-first web browser">
+    <link rel="shortcut icon" type="image/png" href="assets/logo.png">
+    <title>Peacock | Home</title>
   </head>
   <body>
-    <section class="hero container is-fluid is-medium has-bg-img">
+    <section class="hero is-medium has-bg-img">
       <!--  Heading for navbar -->
       <div class="hero-head">
         <nav class="navbar">
@@ -27,7 +31,7 @@
             <a class="navbar-item drop" href="https://github.com/peacockweb/peacock/">
                <p><i class="fab fa-github"></i> Github</p>
             </a>
-            <a class="navbar-item drop" href="https://invite.gg/peacock">
+            <a class="navbar-item drop" href="https://discord.gg/EAGeF7X">
                <p><i class="fab fa-discord"></i> Discord</p>
             </a>
           </div>
@@ -39,92 +43,202 @@
         <br> <br>
         <h1 class="title has-text-light">Peacock browser</h1>
         <h1 class="subtitle has-text-light">The private by default web browser</h1>
-        <div class="">
-          <a class="button is-primary is-active text" href="https://github.com/peacockweb/peacock/releases">
-            <p><i class="fas fa-arrow-circle-down"></i> Download</p>
-          </a>
-          <a class="button is-dark text shift-right" href="https://invite.gg/peacock">
-            <p><i class="fab fa-discord"></i> Discord</p>
-          </a>
-        </div>
+        <a class="button is-link is-active text" href="#downloads">
+          <p><i class="fas fa-arrow-circle-down"></i> Download</p>
+        </a>
+        <a class="button is-dark text shift-right" href="https://discord.gg/EAGeF7X">
+          <p><i class="fab fa-discord"></i> Discord</p>
+        </a>
       </div>
 
       <!--  Footer for caret icon -->
       <div class="hero-footer has-text-centered">
-        <p class="has-text-white title is-1"><i class="fas fa-caret-down"></i></p>
-        <br>
+        <a href="#features">
+          <p class="has-text-white title is-1"><i class="fas fa-caret-down"></i></p>
+          <br>
+        </a>
       </div>
     </section>
-  </body>
 
-  <!--  Features section -->
-  <section class="container">
+    <!--  Features section -->
+    <section class="container is-fluid" id="features">
+      <br>
+      <div class="columns is-multiline">
+        <div class="column is-full">
+          <div class="card">
+            <div class="card-header">
+              <h1 class="card-header-title">Private</h1>
+              <figure class="image is-96x96">
+                <img class="card-header-icon" src="assets/private.png">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="subtitle has-text-light">Keeping your information with you</h1>
+              <p>
+                In the modern day, it is incredibly difficult to keep 
+                your data private and not be tracked by advertisers. 
+                Privacy has virtually become a myth. 
+                Peacock hopes to keep your information with you and 
+                not let companies steal it and sell it for their personal benefit. 
+                Browse the web with confidence knowing that peacock has your back 
+                when it comes to analytics, trackers, advertisers, cookies and history.
+              </p>
+              <br>
+              <li>Peacock blocks trackers and analytics</li>
+              <li>Adverts and other popups are blocked too</li>
+              <li>Randomized fingerprints mean anonymized browsing</li>
+              <li>Blocks cookies and deletes history automatically</li>
+            </div>
+          </div>
+        </div>
+        <div class="column is-full">
+          <div class="card lax" data-lax-preset="zoomIn">
+            <div class="card-header">
+              <h1 class="card-header-title">Modern</h1>
+              <figure class="image is-96x96">
+                <img class="card-header-icon" src="assets/modern.png">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="subtitle has-text-light">Privacy shouldn't mean compromise</h1>
+              <p>
+                Peacock aims to be a browser that is not only secure but also
+                provides features and options that all mainstream browsers have.
+                Peacock also aims to be a browser that experiments with new
+                features that not many browsers have, providing absolutely no
+                compromise when using it.
+              </p>
+              <br>
+              <li>Can render most sites like the mainstream browsers</li>
+              <li>Has a snappy and modern UI</li>
+              <li>Built on a modified chromium engine</li>
+              <li>Has an active community for support</li>
+            </div>
+          </div>
+        </div>
+        <div class="column is-full">
+          <div class="card lax" data-lax-preset="zoomIn">
+            <div class="card-header">
+              <h1 class="card-header-title">Tweakable</h1>
+              <figure class="image is-96x96">
+                <img class="card-header-icon" src="assets/tweakable.png">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="subtitle has-text-light">Tailor your browser to your taste</h1>
+              <p>
+                Peacock also aspires to be entirely hackable and customisable
+                by its users, whether you just want to have a browser that works
+                or if you want to change absolutely everything about the UI,
+                peacock will work for you.
+              </p>
+              <br>
+              <li>Entirely tweakable using CSS</li>
+              <li>Theme store with various themes</li>
+              <li>A large amount of settings</li>
+              <li>Open source under the GPLv3 license</li>
+            </div>
+          </div>
+        </div>
+        <div class="column if-full">
+          <div class="card lax" data-lax-preset="zoomIn">
+            <div class="card-header">
+              <h1 class="card-header-title">Beautiful</h1>
+              <figure class="image is-96x96">
+                <img class="card-header-icon" src="assets/beautiful.png">
+              </figure>
+            </div>
+            <div class="card-content">
+              <h1 class="subtitle has-text-light">Beautiful by default</h1>
+              <p>
+                Peacock has been redesigned and streamlined to provide
+                a simple modern interface that follows many modern
+                design principles and provides both light and dark themes.
+                A unique new tab page provides you with all the information
+                that you need and helps you to navigate the web.
+              </p>
+              <br>
+              <li>Modern design elements</li>
+              <li>Uses nord theme light and dark</li>
+              <li>Refreshing new tab page to greet you</li>
+              <li>Self-explainatory UI for simple navigation</li>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <br>
-    <div class="columns is-multiline has-background-dark">
-      <div class="column is-half">
-        <div class="card">
-          <div class="card-header">
-            <h1 class="card-header-title">Private</h1>
-            <figure class="image is-96x96">
-              <img class="card-header-icon" src="assets/private.png">
-            </figure>
+    <section class="container is-fluid has-background-warning" id="downloads">
+      <br>
+      <h1 class="title has-text-dark">Downloads</h1>
+      <p class="subtitle has-text-dark">Peacock is available for Linux and Windows with MacOS support coming soon</p>
+      <div class="tabs is-centered">
+        <ul>
+          <li class="tab is-active has-text-dark" id="toggle-windows">
+            <a onclick="changeTab('toggle-windows', 1)">
+              <p class="has-text-dark"><i class="fab fa-windows"></i> Windows</p>
+            </a>
+          </li>
+          <li class="tab has-text-dark" id="toggle-linux">
+            <a onclick="changeTab('toggle-linux', 2)">
+              <p class="has-text-dark"><i class="fab fa-linux"></i> Linux</p>
+            </a>
+          </li>
+          <li class="tab has-text-dark" id="toggle-mac">
+            <a onclick="changeTab('toggle-mac', 3)">
+              <p class="has-text-dark"><i class="fab fa-apple"></i> MacOS</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-contents">
+        <div class="tab-pane has-text-centered" id="1">
+          <h1 class="subtitle has-text-dark"><i class="fab fa-windows"></i> Windows</h1>
+          <p class="text has-text-dark">Download the latest peacock for Windows</p>
+          <br>
+          <div class="has-text-center">
+            <a class="button is-link text" href="https://github.com/peacockweb/peacock/releases/download/v2.3.5/Peacock-Setup-2.3.5.exe">
+              <p><i class="fas fa-download"></i> Download executable</p>
+            </a>
+            <br> <br>
+            <a class="is-link has-text-dark" href="https://github.com/peacockweb/peacock/releases">Other downloads</a>
           </div>
-          <div class="card-content">
-            <li>Peacock blocks trackers and analytics</li>
-            <li>Adverts and other popups are blocked too</li>
-            <li>Randomized fingerprints mean anonymized browsing</li>
-            <li>Blocks cookies and deletes history automatically</li>
+        </div>
+        <div class="tab-pane has-text-centered" id="2">
+          <h1 class="subtitle has-text-dark"><i class="fab fa-linux"></i> Linux</h1>
+          <p class="text has-text-dark">
+            Download the latest peacock for Linux via DEB, RPM or AppImages.
+            At the current moment in time there is no PPA or AUR package for
+            peacock however we wish to add one soon.
+          </p>
+          <br>
+          <div class="has-text-center">
+            <a class="button is-link text" href="https://github.com/peacockweb/peacock/releases/download/v2.3.5/Peacock-2.3.5.AppImage">
+              <p><i class="fas fa-download"></i> Download AppImage</p>
+            </a>
+            <br> <br>
+            <a class="is-link has-text-dark" href="https://github.com/peacockweb/peacock/releases">Other downloads</a>
+          </div>
+        </div>
+        <div class="tab-pane has-text-centered" id="3">
+          <h1 class="subtitle has-text-dark"><i class="fab fa-apple"></i> MacOS</h1>
+          <p class="text has-text-dark">
+            Unfortunately, while there are downloads for MacOS, 
+            they aren't tested and therefore aren't likely to work well.
+            In the future peacock hopes to be able to work well for MacOS,
+            we just lack the resources for testing.
+          </p>
+          <br>
+          <div class="has-text-center">
+            <a class="button is-light text" href="https://github.com/peacockweb/peacock/releases/download/v2.3.3/Peacock-2.3.3.dmg">
+              <p><i class="fas fa-download"></i> DMG download</p>
+            </a>
+            <br> <br>
+            <a class="is-link has-text-dark" href="https://github.com/peacockweb/peacock/releases">Other downloads</a>
           </div>
         </div>
       </div>
-      <div class="column is-half">
-        <div class="card">
-          <div class="card-header">
-            <h1 class="card-header-title">Modern</h1>
-            <figure class="image is-96x96">
-              <img class="card-header-icon" src="assets/modern.png">
-            </figure>
-          </div>
-          <div class="card-content">
-            <li>Can render most sites like the mainstream browsers</li>
-            <li>Has a snappy and modern UI</li>
-            <li>Built on a modified chromium engine</li>
-            <li>Has an active community for support</li>
-          </div>
-        </div>
-      </div>
-      <div class="column is-half">
-        <div class="card">
-          <div class="card-header">
-            <h1 class="card-header-title">Tweakable</h1>
-            <figure class="image is-96x96">
-              <img class="card-header-icon" src="assets/tweakable.png">
-            </figure>
-          </div>
-          <div class="card-content">
-            <li>Entirely tweakable using CSS</li>
-            <li>Theme store with various themes</li>
-            <li>A large amount of settings</li>
-            <li>Open source under the GPLv3 license</li>
-          </div>
-        </div>
-      </div>
-      <div class="column if-half">
-        <div class="card">
-          <div class="card-header">
-            <h1 class="card-header-title">Beautiful</h1>
-            <figure class="image is-96x96">
-              <img class="card-header-icon" src="assets/beautiful.png">
-            </figure>
-          </div>
-          <div class="card-content">
-            <li>Modern design elements</li>
-            <li>Uses nord theme light and dark</li>
-            <li>Refreshing new tab page to greet you</li>
-            <li>Self-explainatory UI for simple navigation</li>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <br> <br>
+    </section>
+  </body>
 </html>

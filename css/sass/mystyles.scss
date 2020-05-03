@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Rubik:wght@300');
+@import url('../../assets/Circular Std Font.otf');
 
 // Set your brand colors
 $dark1: #2E3440;
@@ -13,11 +13,13 @@ $light1: #D8DEE9;
 $light2: #E5E9F0;
 $light3: #ECEFF4;
 
-$highlight: #5E81AC;
-$highlight2: #8FBCBB;
+$highlight: #7450D4;
+$highlight2: #2CCF86;
+$highlight3: #E64C4C;
+$highlight4: #F4E935;
 
 // Fonts
-$family-sans-serif: "Rubik", sans-serif;
+$family-sans-serif: "Circula-Medium", sans-serif;
 
 // Colors
 $primary: $highlight;
@@ -25,14 +27,14 @@ $dark: $dark1;
 $link: $highlight2;
 
 // Cards
-$card-background-color: $dark3;
+$card-background-color: $dark2;
 
 // Size
 $widescreen-enabled: true;
 $fullhd-enabled: true;
 
 // Body
-$body-background-color: $dark1;
+$body-background-color: $highlight2;
 
 // Text
 $title-size: 60px;
@@ -44,7 +46,10 @@ $navbar-item-hover-color: $highlight;
 $navbar-item-hover-background-color: none;
 $navbar-item-color: $light1;
 
-// Buttons
+// Tabs
+$tabs-link-active-color: $dark3;
+$tabs-link-active-border-bottom-color: $dark;
+$tabs-border-bottom-width: 3px;
 
 // Import only what you need from Bulma
 @import "../bulma/bulma.sass";
