@@ -40,13 +40,13 @@
       // Body for title and subtitle and navigation
       .div[class="hero-body"] {
         .br{} .br{}
-        .h1[class="title has-text-light"] Peacock browser
-        .h1[class="subtitle has-text-light"] The private by default web browser
-        .a[class="button is-link is-active text", 
+        .h1[class="title has-text-light shift-down"] Peacock browser
+        .h1[class="subtitle has-text-light shift-down"] The private by default web browser
+        .a[class="button is-link is-active text shift-down", 
            href="#downloads"] {
           .p{.i[class="fas fa-arrow-circle-down"]{} Download}
         }
-        .a[class="button is-dark text shift-right", 
+        .a[class="button is-dark text shift-right shift-down", 
            href="https://discord.gg/EAGeF7X"] {
           .p{.i[class="fab fa-discord"]{} Discord}
         }
@@ -200,7 +200,7 @@
       .div[class="tab-contents"] {
         .div[class="tab-pane has-text-centered", id="1"] {
           .h1[class="subtitle has-text-dark"] {.i[class="fab fa-windows"]{} Windows}
-          .p[class="text has-text-dark"] Download the latest peacock for Windows
+          .p[class="text has-text-dark"] Download the latest Peacock for Windows
           .br
           .div[class="has-text-center"] {
             .a[class="button is-link text", 
@@ -214,7 +214,7 @@
         .div[class="tab-pane has-text-centered", id="2"] {
           .h1[class="subtitle has-text-dark"] {.i[class="fab fa-linux"]{} Linux}
           .p[class="text has-text-dark"] {
-            Download the latest peacock for Linux via DEB, RPM or AppImages.
+            Download the latest Peacock for Linux via DEB, RPM or AppImages.
             At the current moment in time there is no PPA or AUR package for
             peacock however we wish to add one soon.
           }
@@ -233,7 +233,7 @@
           .p[class="text has-text-dark"] {
             Unfortunately, while there are downloads for MacOS, 
             they aren't tested and therefore aren't likely to work well.
-            In the future peacock hopes to be able to work well for MacOS,
+            In the future Peacock hopes to be able to work well for MacOS,
             we just lack the resources for testing.
           }
           .br
