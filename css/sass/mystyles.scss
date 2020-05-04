@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('../../assets/Circular Std Font.otf');
+@import url('https://fonts.googleapis.com/css2?family=Nunito');
 
 // Set your brand colors
 $dark1: #2E3440;
@@ -19,7 +19,7 @@ $highlight3: #E64C4C;
 $highlight4: #F4E935;
 
 // Fonts
-$family-sans-serif: "Circula-Medium", sans-serif;
+$family-sans-serif: 'Nunito', sans-serif;
 
 // Colors
 $primary: $highlight;

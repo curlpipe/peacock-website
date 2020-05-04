@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("../../assets/Circular Std Font.otf");
+@import url("https://fonts.googleapis.com/css2?family=Nunito");
 /*! bulma.io v0.8.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {
   from {
@@ -279,7 +279,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Circula-Medium", sans-serif; }
+  font-family: "Nunito", sans-serif; }
 
 code,
 pre {
@@ -815,13 +815,13 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   font-weight: 700 !important; }
 
 .is-family-primary {
-  font-family: "Circula-Medium", sans-serif !important; }
+  font-family: "Nunito", sans-serif !important; }
 
 .is-family-secondary {
-  font-family: "Circula-Medium", sans-serif !important; }
+  font-family: "Nunito", sans-serif !important; }
 
 .is-family-sans-serif {
-  font-family: "Circula-Medium", sans-serif !important; }
+  font-family: "Nunito", sans-serif !important; }
 
 .is-family-monospace {
   font-family: monospace !important; }

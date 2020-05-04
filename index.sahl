@@ -82,9 +82,7 @@
             .div[class="card-content"] {
               .h1[class="subtitle has-text-light"] Keeping your information with you
               .p {
-                In the modern day, it is incredibly difficult to keep 
-                your data private and not be tracked by advertisers. 
-                Privacy has virtually become a myth. 
+                In the modern day, privacy has virtually become a myth. 
                 Peacock hopes to keep your information with you and 
                 not let companies steal it and sell it for their personal benefit. 
                 Browse the web with confidence knowing that peacock has your back 
@@ -119,11 +117,11 @@
                 provides features and options that all mainstream browsers have.
                 Peacock also aims to be a browser that experiments with new
                 features that not many browsers have, providing absolutely no
-                compromise when using it.
+                compromise when using it. It passes well in many browser tests
+                such as Acid3, HTML5 tests and Basemark.
               }
               .br
               .li Can render most sites like the mainstream browsers
-              .li Has a snappy and modern UI
               .li Built on a modified chromium engine
               .li Has an active community for support
               .li Scores as well as other browsers in benchmarks
@@ -156,7 +154,6 @@
               .li Entirely tweakable using CSS
               .li Theme store with various themes
               .li A large amount of settings
-              .li Provides flags page for extra privacy
               .li Open source under the GPLv3 license
             }
           }
