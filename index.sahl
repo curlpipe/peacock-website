@@ -5,6 +5,8 @@
     @css/mybulma.css
     @css/index.css
     @js/index.js
+    .meta[charset="utf-8"]
+    .meta[name="viewport", content="width=device-width, initial-scale=0.7"]
     .script[defer, src="js/tabs.js"]
     .meta[name="twitter:title", content="Peacock | Privacy-first web browser"]
     .link[rel="shortcut icon", type="image/png", href="assets/logo.png"]
@@ -46,7 +48,7 @@
            href="#downloads"] {
           .p{.i[class="fas fa-arrow-circle-down"]{} Download}
         }
-        .a[class="button is-dark text shift-right shift-down-4", 
+        .a[class="button is-dark text shift-right shift-down-3", 
            href="https://discord.gg/EAGeF7X"] {
           .p{.i[class="fab fa-discord"]{} Discord}
         }
