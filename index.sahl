@@ -204,7 +204,7 @@
           .br
           .div[class="has-text-center"] {
             .a[class="button is-link text", 
-               href="https://github.com/peacockweb/peacock/releases/download/v2.3.5/Peacock-Setup-2.3.5.exe"] {
+               href="https://github.com/peacockweb/peacock/releases/download/v2.4.0-beta.1/Peacock-Setup-2.4.0-beta.1.exe"] {
               .p{.i[class="fas fa-download"]{} Download executable}
             }
             .br{} .br{}
@@ -221,7 +221,7 @@
           .br
           .div[class="has-text-center"] {
             .a[class="button is-link text", 
-               href="https://github.com/peacockweb/peacock/releases/download/v2.3.5/Peacock-2.3.5.AppImage"] {
+               href="https://github.com/peacockweb/peacock/releases/download/v2.4.0-beta.1/Peacock-2.4.0-beta.1.AppImage"] {
               .p{.i[class="fas fa-download"]{} Download AppImage}
             }
             .br{} .br{}
