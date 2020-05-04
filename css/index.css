@@ -82,3 +82,6 @@ html {
     }
 }
 
+.scale-h {
+  height: 100vh;
+}

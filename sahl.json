@@ -4,5 +4,6 @@
     "jquery":".script[src:\"https://code.jquery.com/jquery-3.5.0.min.js\", integrity:\"sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=\", crossorigin:\"anonymous\"]",
     "fontawesome":".script[defer, src: \"https://use.fontawesome.com/releases/v5.3.1/js/all.js\"]",
     "opensans":".link[href: \"https://fonts.googleapis.com/css?family=Open+Sans\", rel: \"stylesheet\", type: \"text/css\"]",
-    "laxxx":".script[src=\"https://cdn.jsdelivr.net/npm/lax.js\"]"
+    "laxxx":".script[src=\"https://cdn.jsdelivr.net/npm/lax.js\"]",
+    "animatecss":".link[rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css\"]"
 }

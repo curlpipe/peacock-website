@@ -12,7 +12,7 @@
     <title>Peacock | Home</title>
   </head>
   <body>
-    <section class="hero is-medium has-bg-img">
+    <section class="hero scale-h is-large has-bg-img">
       <!--  Heading for navbar -->
       <div class="hero-head">
         <nav class="navbar">
@@ -55,7 +55,7 @@
       <div class="hero-footer has-text-centered">
         <a href="#features">
           <p class="has-text-white title is-1"><i class="fas fa-caret-down"></i></p>
-          <br>
+          <br> <br>
         </a>
       </div>
     </section>
@@ -64,8 +64,13 @@
     <section class="container is-fluid" id="features">
       <br>
       <div class="columns is-multiline">
-        <div class="column is-full">
-          <div class="card">
+        <div class="column is-full is-half-desktop">
+          <div class="card lax" data-lax-preset="zoomIn">
+            <div class="card-image">
+              <figure class="image">
+                <img src="assets/screenshot1.png">
+              </figure>
+            </div>
             <div class="card-header">
               <h1 class="card-header-title">Private</h1>
               <figure class="image is-96x96">
@@ -91,8 +96,13 @@
             </div>
           </div>
         </div>
-        <div class="column is-full">
+        <div class="column is-full is-half-desktop">
           <div class="card lax" data-lax-preset="zoomIn">
+            <div class="card-image">
+              <figure class="image">
+                <img src="assets/screenshot2.png">
+              </figure>
+            </div>
             <div class="card-header">
               <h1 class="card-header-title">Modern</h1>
               <figure class="image is-96x96">
@@ -113,11 +123,17 @@
               <li>Has a snappy and modern UI</li>
               <li>Built on a modified chromium engine</li>
               <li>Has an active community for support</li>
+              <li>Scores as well as other browsers in benchmarks</li>
             </div>
           </div>
         </div>
-        <div class="column is-full">
+        <div class="column is-full is-half-desktop">
           <div class="card lax" data-lax-preset="zoomIn">
+            <div class="card-image">
+              <figure class="image">
+                <img src="assets/screenshot3.png">
+              </figure>
+            </div>
             <div class="card-header">
               <h1 class="card-header-title">Tweakable</h1>
               <figure class="image is-96x96">
@@ -136,12 +152,18 @@
               <li>Entirely tweakable using CSS</li>
               <li>Theme store with various themes</li>
               <li>A large amount of settings</li>
+              <li>Provides flags page for extra privacy</li>
               <li>Open source under the GPLv3 license</li>
             </div>
           </div>
         </div>
-        <div class="column if-full">
+        <div class="column if-full is-half-desktop">
           <div class="card lax" data-lax-preset="zoomIn">
+            <div class="card-image">
+              <figure class="image">
+                <img src="assets/screenshot4.png">
+              </figure>
+            </div>
             <div class="card-header">
               <h1 class="card-header-title">Beautiful</h1>
               <figure class="image is-96x96">
@@ -170,8 +192,8 @@
     <br>
     <section class="container is-fluid has-background-warning" id="downloads">
       <br>
-      <h1 class="title has-text-dark">Downloads</h1>
-      <p class="subtitle has-text-dark">Peacock is available for Linux and Windows with MacOS support coming soon</p>
+      <h1 class="title has-text-dark lax" data-lax-preset="zoomIn">Downloads</h1>
+      <p class="subtitle has-text-dark lax" data-lax-preset="zoomIn">Peacock is available for Linux and Windows with MacOS support coming soon</p>
       <div class="tabs is-centered">
         <ul>
           <li class="tab is-active has-text-dark" id="toggle-windows">
@@ -239,6 +261,8 @@
         </div>
       </div>
       <br> <br>
+    </section>
+    <section class="footer container is-fluid has-background-dark" id="footer">
     </section>
   </body>
 </html>
